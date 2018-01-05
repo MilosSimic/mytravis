@@ -27,4 +27,7 @@ docker run --rm -v $PWD:/repo -v ~/.travis:/travis mytravis -github-token <githu
 docker run --rm -v $PWD:/repo -v ~/.travis:/travis mytravis whoami
 ```
 
+## Github access token
+To get github_access_token go to _your profile > Developer settings > Personal access tokens > Generate new token_
+
 For more commands go to [docs](https://docs.travis-ci.com/user/encryption-keys/)
