@@ -14,12 +14,12 @@ docker build -t mytravis .
 
 Run travis cli commands in this format:
 ```
-docker run --rm -v $PWD:/repo -v ~/.travis:/travis mytravis [command]
+docker run --rm -v $PWD:/repo -v ~/.travis:/travis mytravis <command>
 ```
 
 3) Login to your github repo:
 ```
-docker run --rm -v $PWD:/repo -v ~/.travis:/travis mytravis -github-token <github personal_access_token>
+docker run --rm -v $PWD:/repo -v ~/.travis:/travis mytravis -github-token <github_access_token>
 ```
 
 4) Test is your repo connected:
