@@ -4,6 +4,7 @@ services:
   - docker
 
 script:
-  - docker --version
-  - docker build -t milossimic/mytravis:latest .
+  - docker build -t $DOCKER_USERNAME/mytravis:latest .
   - docker images
+  - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD";
+  - docker push $DOCKER_USERNAME/mytravis:latest
