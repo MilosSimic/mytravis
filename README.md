@@ -1,5 +1,5 @@
 # mytravis
-Docker image for Travis CLI
+Docker image for Travis CLI [![Build Status](https://travis-ci.org/MilosSimic/mytravis.svg?branch=master)](https://travis-ci.org/MilosSimic/mytravis)
 
 
 ## Summary
